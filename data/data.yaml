@@ -1,0 +1,20 @@
+login:
+  standard_user: standard_user
+  secret_sauce: secret_sauce
+  locked_out_user: locked_out_user
+  invalid_standard_user: invalid_standard_user
+  invalid_secret_sauce: invalid_secret_sauce
+  message:
+    locked_out_user: Sorry, this user has been locked out.
+    invalid_credentials: Username and password do not match any user in this service.
+    username_required: Username is required
+    password_required: Password is required
+
+products:
+  all_products: ["Sauce Labs Backpack", "Sauce Labs Bike Light", "Sauce Labs Bolt T-Shirt", "Sauce Labs Fleece Jacket", "Sauce Labs Onesie", "Test.allTheThings() T-Shirt (Red)"]
+  sauce_labs_bike_light:
+    name: Sauce Labs Bike Light
+    price: $9.99
+    description: A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAA battery included.
+  message:
+    your_order: Your order has been dispatched, and will arrive just as fast as the pony can get there!
